@@ -1,4 +1,4 @@
-package com.example.user_authentication;
+package com.aegis.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.home.R;
 
-public class Login extends AppCompatActivity {
+public class ForgetPassword extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_forget_password);
     }
 }

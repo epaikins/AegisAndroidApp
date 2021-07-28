@@ -1,4 +1,4 @@
-package com.example.user_authentication;
+package com.aegis.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg_img"
-    tools:context="com.example.user_authentication.MainActivity">
+    tools:context="com.aegis.user_authentication.MainActivity">
 
     <ImageView
         android:id="@+id/iv_logo"

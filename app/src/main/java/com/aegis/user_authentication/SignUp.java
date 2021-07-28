@@ -1,4 +1,4 @@
-package com.example.user_authentication;
+package com.aegis.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +15,8 @@ public class SignUp extends AppCompatActivity {
     EditText etSUEmail, etSUPassword,etSUCPassword;
     Button btnSU;
 
+    private static final String TAG = "Email";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +30,7 @@ public class SignUp extends AppCompatActivity {
         btnSU.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//                Log.i(TAG, etSUEmail.getText().toString());
                 Intent intent = new Intent(SignUp.this,
                         VerifyAccount.class);
                 startActivity(intent);

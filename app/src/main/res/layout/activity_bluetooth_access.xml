@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user_authentication.BluetoothAccess">
+    tools:context="com.aegis.user_authentication.BluetoothAccess">
 
     <ImageView
         android:id="@+id/iVBLE"

@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Home">
-        <activity android:name="com.example.user_authentication.BluetoothAccess"></activity>
-        <activity android:name="com.example.user_authentication.LocationAccess" />
-        <activity android:name="com.example.user_authentication.NotificationAccess" />
-        <activity android:name="com.example.user_authentication.ResetPassword" />
-        <activity android:name="com.example.user_authentication.RecoverCode" />
-        <activity android:name="com.example.user_authentication.ForgetPassword" />
-        <activity android:name="com.example.user_authentication.VerifyAccount" />
-        <activity android:name="com.example.user_authentication.Login" />
-        <activity android:name="com.example.user_authentication.SignUp" />
-        <activity android:name="com.example.user_authentication.MainActivity">
+        <activity android:name="com.aegis.user_authentication.BluetoothAccess"></activity>
+        <activity android:name="com.aegis.user_authentication.LocationAccess" />
+        <activity android:name="com.aegis.user_authentication.NotificationAccess" />
+        <activity android:name="com.aegis.user_authentication.ResetPassword" />
+        <activity android:name="com.aegis.user_authentication.RecoverCode" />
+        <activity android:name="com.aegis.user_authentication.ForgetPassword" />
+        <activity android:name="com.aegis.user_authentication.VerifyAccount" />
+        <activity android:name="com.aegis.user_authentication.Login" />
+        <activity android:name="com.aegis.user_authentication.SignUp" />
+        <activity android:name="com.aegis.user_authentication.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
