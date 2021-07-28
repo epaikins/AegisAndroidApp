@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocationAccess">
+
+    <ImageView
+        android:id="@+id/ivLAImg"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-41dp"
+        android:contentDescription="@string/location_access_image"
+        app:srcCompat="@drawable/location_access_img" />
+
+    <TextView
+        android:id="@+id/tvLAHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/set_your_destination_to_determine_the_shortest_path"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLADesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/allow_aegis_rider_to_access_this_device_s_location_services_to_provide_navigation_and_route_planning" />
+
+    <Button
+        android:id="@+id/btnLA"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_green"
+        android:text="@string/Continue"
+        app:backgroundTint="@color/aegis_green" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BluetoothAccess">
+
+    <ImageView
+        android:id="@+id/iVBLE"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/bluetooth_access_image"
+        app:srcCompat="@drawable/ble_img" />
+
+    <TextView
+        android:id="@+id/tvBLEHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-130dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/connect_your_jetson_pack_via_bluetooth_to_predict_the_safest_trajectory"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBLEDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/in_order_to_predict_the_safest_trajectory_for_your_ride_you_need_to_allow_our_app_to_access_your_bluetooth_device" />
+
+    <Button
+        android:id="@+id/btnBLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_green"
+        android:text="@string/Continue"
+        app:backgroundTint="@color/aegis_green" />
+
+</LinearLayout>

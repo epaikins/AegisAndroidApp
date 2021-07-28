@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_aegis"
+    android:orientation="vertical"
+    tools:context=".NotificationAccess">
+
+    <ImageView
+        android:id="@+id/iVNA"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/notification_bell"
+        app:srcCompat="@drawable/img_bell" />
+
+    <TextView
+        android:id="@+id/tvNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/track_your_ride_with_push_notifications"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNA2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/get_updates_when_your_motorbike_arrives_at_its_destination_and_more" />
+
+    <Button
+        android:id="@+id/btnNA"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_green"
+        android:text="@string/Continue"
+        app:backgroundTint="@color/aegis_green" />
+</LinearLayout>
