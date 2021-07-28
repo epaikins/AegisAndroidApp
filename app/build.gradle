@@ -44,5 +44,5 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
     // Converts POJO into json objects
-    implementation 'com.squareup.retrofit2:converter-gson:latest.version'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 }
