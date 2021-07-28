@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_aegis"
     android:orientation="vertical"
-    tools:context=".NotificationAccess">
+    tools:context="com.example.user_authentication.NotificationAccess">
 
     <ImageView
         android:id="@+id/iVNA"

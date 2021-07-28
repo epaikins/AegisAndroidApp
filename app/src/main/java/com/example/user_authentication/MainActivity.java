@@ -1,4 +1,4 @@
-package com.example.home;
+package com.example.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.home.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,
-                        com.example.home.SignUp.class);
+                        SignUp.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,
-                        com.example.home.Login.class);
+                        Login.class);
                 startActivity(intent);
             }
         });

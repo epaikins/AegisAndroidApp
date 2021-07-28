@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_aegis"
     android:orientation="vertical"
-    tools:context=".VerifyAccount">
+    tools:context="com.example.user_authentication.VerifyAccount">
 
     <TextView
         android:id="@+id/tvRPtxt"

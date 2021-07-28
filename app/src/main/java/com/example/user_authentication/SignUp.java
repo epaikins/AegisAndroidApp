@@ -1,4 +1,4 @@
-package com.example.home;
+package com.example.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.home.R;
 
 public class SignUp extends AppCompatActivity {
 
@@ -27,7 +29,7 @@ public class SignUp extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SignUp.this,
-                        com.example.home.VerifyAccount.class);
+                        VerifyAccount.class);
                 startActivity(intent);
             }
         });

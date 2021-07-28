@@ -1,8 +1,10 @@
-package com.example.home;
+package com.example.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.home.R;
 
 public class NotificationAccess extends AppCompatActivity {
 

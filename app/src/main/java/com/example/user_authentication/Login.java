@@ -1,14 +1,16 @@
-package com.example.home;
+package com.example.user_authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class VerifyAccount extends AppCompatActivity {
+import com.example.home.R;
+
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_verify_account);
+        setContentView(R.layout.activity_login);
     }
 }
